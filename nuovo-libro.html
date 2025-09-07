@@ -59,22 +59,41 @@
     <main class="container mt-5 pt-5">
         <h1>Nuovo Libro</h1>
         <!-- sezione form -->
+
+        <!-- sezione ricerca autore-libro -->
         <div class="row">
+            <div class="col-6">
+                <label for="nome-autore" class="form-label fw-medium">Nome Autore</label>
+                <input type="text" class="form-control" id="nome-autore"
+                    placeholder="inserisci il nome dell'autore">
+            </div>
+            <div class="col-6">
+                <label for="cognome-autore" class="form-label fw-medium">Cognome Autore</label>
+                <input type="text" class="form-control" id="cognome-autore"
+                    placeholder="inserisci il cognome dell'autore">
+            </div>
+            <div class="col-12 mt-2">
+                <label for="Titolo-libro" class="form-label fw-medium">Titolo</label>
+                <input type="text" class="form-control" id="Titolo-libro"
+                    placeholder="inserisci il titolo del libro" aria-describedby="suggerimento-imput">
+                <div id="suggerimento-imput" class="form-text">
+                    Titolo versione italiana
+                </div>
+            </div>
+        </div>
+        <!-- /sezione ricerca autore-libro -->
+        <div class="row">
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
             <div class="col"></div>
             <div class="col"></div>
         </div>
         <div class="row">
             <div class="col"></div>
         </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col"></div>
-        </div>
-         <!-- sezione form -->
+        <!-- sezione form -->
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
