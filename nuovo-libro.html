@@ -64,8 +64,7 @@
         <div class="row">
             <div class="col-6">
                 <label for="nome-autore" class="form-label fw-medium">Nome Autore</label>
-                <input type="text" class="form-control" id="nome-autore"
-                    placeholder="inserisci il nome dell'autore">
+                <input type="text" class="form-control" id="nome-autore" placeholder="inserisci il nome dell'autore">
             </div>
             <div class="col-6">
                 <label for="cognome-autore" class="form-label fw-medium">Cognome Autore</label>
@@ -74,22 +73,34 @@
             </div>
             <div class="col-12 mt-2">
                 <label for="Titolo-libro" class="form-label fw-medium">Titolo</label>
-                <input type="text" class="form-control" id="Titolo-libro"
-                    placeholder="inserisci il titolo del libro" aria-describedby="suggerimento-imput">
+                <input type="text" class="form-control" id="Titolo-libro" placeholder="inserisci il titolo del libro"
+                    aria-describedby="suggerimento-imput">
                 <div id="suggerimento-imput" class="form-text">
                     Titolo versione italiana
                 </div>
             </div>
         </div>
         <!-- /sezione ricerca autore-libro -->
+        <!-- sezione dettagli libro -->
         <div class="row">
+            <div class="col-12 col-lg-4">
+                <label for="genere-libri" class="fw-medium mt-3 mb-2">Genere</label>
+                <select class="form-select" id="genere-libri" aria-label="Scegli il genere">
+                    <option selected class="fw-medium">Scegli il genere</option>
+                    <option value="1">Romance</option>
+                    <option value="2">Fantasy</option>
+                    <option value="3">Thriller</option>
+                    <option value="4">Biografie</option>
+                    <option value="5">Gialli</option>
+                    <option value="6">Avventura e azione</option>
+                    <option value="7">Horror</option>
+                </select>
+
+            </div>
+            <div class="col"></div>
             <div class="col"></div>
         </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
+        <!-- /sezione dettagli libro -->
         <div class="row">
             <div class="col"></div>
         </div>
